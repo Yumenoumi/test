@@ -15,7 +15,7 @@ jobs:
 
     - name: running
       run: |
-        touch aaa.md
+        echo "aaaaa\n\n" >> bar.md
 
     
     - name: commit
